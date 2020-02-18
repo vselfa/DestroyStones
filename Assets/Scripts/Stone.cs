@@ -30,5 +30,6 @@ public class Stone: MonoBehaviour {
         explosionAudioSource.Play();
         Instantiate(explosion, transform.position, Quaternion.identity);
         Destroy(gameObject);
+        GameManager.currentNumberStonesDestroyed++;
     }
 }
