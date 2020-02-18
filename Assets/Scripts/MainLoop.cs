@@ -37,7 +37,7 @@ public class MainLoop : MonoBehaviour {
         stone.transform.position = new Vector3(x0, y0, z0 );
         stone.transform.rotation = Random.rotation;
 
-        print ("x,y,z =" + x0 + " " + y0 + " " + z0);
+        // print ("x,y,z =" + x0 + " " + y0 + " " + z0);
 
  	    rigidBody = stone.GetComponent<Rigidbody>();
         // Rotation
