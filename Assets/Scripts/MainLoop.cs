@@ -70,4 +70,8 @@ public class MainLoop : MonoBehaviour {
         numberStonesDestroyed.text = "Stones destroyed: " +  GameManager.currentNumberStonesDestroyed;
     }
 
+    public void Quit ()    {
+        Application.Quit();
+    }
+
 }
